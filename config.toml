@@ -1,0 +1,19 @@
+name = "Swoyo_test"
+version  = "1.0.0"
+
+[server]
+url = "http://localhost:4010"
+timeout = 15
+retry_times = 3
+
+[user_data]
+username = "Peter Zaznobin"
+password = "admin"
+
+[basicAuth]
+type =  "http"
+scheme = "basic"
+
+[logging]
+level = "DEBUG"      # (DEBUG, INFO, WARNING, ERROR)
+file = "app.log"
